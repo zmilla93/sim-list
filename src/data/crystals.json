@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Alabaster",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Selium",
+            " Alcineat"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Citrine",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Ozinate",
+            " Plathium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Emerald",
+        "rarity": "Common",
+        "value": "20",
+        "elements": [
+            "Goobleck",
+            " Sydrolin"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Orange Topaz",
+        "rarity": "Common",
+        "value": "15",
+        "elements": [
+            "Selium",
+            " Phozone"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Peach",
+        "rarity": "Common",
+        "value": "15",
+        "elements": [
+            "Sydrolin",
+            " Alcineat"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Quartz",
+        "rarity": "Common",
+        "value": "30",
+        "elements": [
+            "Volenton",
+            " Sydrolin"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Rose",
+        "rarity": "Common",
+        "value": "20",
+        "elements": [
+            "Phozone",
+            " Peryllium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Ruby",
+        "rarity": "Common",
+        "value": "30",
+        "elements": [
+            "Sydrolin",
+            " Peryllium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Sapphire",
+        "rarity": "Common",
+        "value": "15",
+        "elements": [
+            "Melacoo"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Turquoise",
+        "rarity": "Common",
+        "value": "20",
+        "elements": [
+            "Alcineat",
+            " Oxypin"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Amethyst",
+        "rarity": "Uncommon",
+        "value": "55",
+        "elements": [
+            "Volenton",
+            " Oxypin"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Diamond",
+        "rarity": "Uncommon",
+        "value": "90",
+        "elements": [
+            "Plathium",
+            " Firaxium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Fire Opal",
+        "rarity": "Uncommon",
+        "value": "70",
+        "elements": [
+            "Selium",
+            " Plathium",
+            " Crytacoo"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Hematite",
+        "rarity": "Uncommon",
+        "value": "60",
+        "elements": [
+            "Wolfium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Simanite",
+        "rarity": "Uncommon",
+        "value": "60",
+        "elements": [
+            "Ozinate",
+            " Volenton"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Shinolite",
+        "rarity": "Uncommon",
+        "value": "75",
+        "elements": [
+            "Wolfium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Jet",
+        "rarity": "Rare",
+        "value": "140",
+        "elements": [
+            "Plumbobus",
+            " Plathium",
+            " Wolfium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Jonquilyst",
+        "rarity": "Rare",
+        "value": "145",
+        "elements": [
+            "Phozone",
+            " Crytacoo"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Plumbite",
+        "rarity": "Rare",
+        "value": "160",
+        "elements": [
+            "Plumbobus",
+            " Phozone"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Rainborz",
+        "rarity": "Rare",
+        "value": "150",
+        "elements": [
+            "Peryllium",
+            " Firaxium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Crandestine",
+        "rarity": "Common",
+        "value": "95",
+        "elements": [
+            "Xenopetrium",
+            " Crytacoo"
+        ],
+        "expansion": "Get to Work"
+    },
+    {
+        "name": "Nitelite",
+        "rarity": "Common",
+        "value": "95",
+        "elements": [
+            "Xenopetrium",
+            " Phozone",
+            " Volenton"
+        ],
+        "expansion": "Get to Work"
+    },
+    {
+        "name": "Amazonite",
+        "rarity": "Uncommon",
+        "value": "85",
+        "elements": [
+            "Crytacoo",
+            " Melacoo",
+            " Selium"
+        ],
+        "expansion": "Jungle Adventure"
+    },
+    {
+        "name": "Alexandrite",
+        "rarity": "Rare",
+        "value": "155",
+        "elements": [
+            "Firaxium",
+            " Goobleck",
+            " Oxypin"
+        ],
+        "expansion": "Jungle Adventure"
+    },
+    {
+        "name": "Jade",
+        "rarity": "Common",
+        "value": "30",
+        "elements": [
+            "Goobleck",
+            " Plathium"
+        ],
+        "expansion": "Crystal Creations"
+    },
+    {
+        "name": "Moonstone",
+        "rarity": "Uncommon",
+        "value": "90",
+        "elements": [
+            "Wolfium",
+            " Selium"
+        ],
+        "expansion": "Crystal Creations"
+    },
+    {
+        "name": "Amber",
+        "rarity": "Rare",
+        "value": "210",
+        "elements": [
+            "Crytacoo",
+            " Melacoo"
+        ],
+        "expansion": "Crystal Creations"
+    }
+]
