@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Crystal } from "../data/crystals";
 import { getImage } from "../utility";
 
@@ -13,7 +14,7 @@ export function Collectable(props: CollectableProps) {
         <div className="flex justify-center">
             <img src={getImage("crystals/" + props.crystal?.name + ".webp")}></img>
         </div>
-        <div className=" ">{props.crystal?.elements.map(e => <div className=" text-xs">{e}</div>)}</div>
+        <div className=" ">{props.crystal?.elements.map(e => <div className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div>
     </div>)
 
 }
