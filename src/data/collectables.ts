@@ -8,6 +8,7 @@ export type float = number;
 
 export type Collectable = {
     name: string,
+    type: string,
     rarity: string,
     value: int,
     elements: string[],

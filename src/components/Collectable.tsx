@@ -13,9 +13,9 @@ export function CollectablePanel(props: CollectableProps) {
         <div className=" text-xs">{props.crystal?.rarity}</div>
         {/* <input type="checkbox" className=" absolute bottom-0 right-0"></input> */}
         <div className="flex justify-center">
-            <img src={getImage("crystals/" + props.crystal?.name + ".webp")}></img>
+            <img src={getImage(props.crystal?.type + "/" + props.crystal?.name + ".webp")}></img>
         </div>
-        {/* <div className=" ">{props.crystal?.elements.map(e => <div className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div> */}
+        <div className=" ">{props.crystal?.elements?.map(e => <div className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div>
     </div>)
 
 }

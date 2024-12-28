@@ -1,6 +1,7 @@
 [
     {
         "name": "Alabaster",
+        "type": "crystal",
         "rarity": "Common",
         "value": "25",
         "elements": [
@@ -11,6 +12,7 @@
     },
     {
         "name": "Citrine",
+        "type": "crystal",
         "rarity": "Common",
         "value": "25",
         "elements": [
@@ -21,6 +23,7 @@
     },
     {
         "name": "Emerald",
+        "type": "crystal",
         "rarity": "Common",
         "value": "20",
         "elements": [
@@ -31,6 +34,7 @@
     },
     {
         "name": "Orange Topaz",
+        "type": "crystal",
         "rarity": "Common",
         "value": "15",
         "elements": [
@@ -41,6 +45,7 @@
     },
     {
         "name": "Peach",
+        "type": "crystal",
         "rarity": "Common",
         "value": "15",
         "elements": [
@@ -51,6 +56,7 @@
     },
     {
         "name": "Quartz",
+        "type": "crystal",
         "rarity": "Common",
         "value": "30",
         "elements": [
@@ -61,6 +67,7 @@
     },
     {
         "name": "Rose",
+        "type": "crystal",
         "rarity": "Common",
         "value": "20",
         "elements": [
@@ -71,6 +78,7 @@
     },
     {
         "name": "Ruby",
+        "type": "crystal",
         "rarity": "Common",
         "value": "30",
         "elements": [
@@ -81,6 +89,7 @@
     },
     {
         "name": "Sapphire",
+        "type": "crystal",
         "rarity": "Common",
         "value": "15",
         "elements": [
@@ -90,6 +99,7 @@
     },
     {
         "name": "Turquoise",
+        "type": "crystal",
         "rarity": "Common",
         "value": "20",
         "elements": [
@@ -100,6 +110,7 @@
     },
     {
         "name": "Amethyst",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "55",
         "elements": [
@@ -110,6 +121,7 @@
     },
     {
         "name": "Diamond",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "90",
         "elements": [
@@ -120,6 +132,7 @@
     },
     {
         "name": "Fire Opal",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "70",
         "elements": [
@@ -131,6 +144,7 @@
     },
     {
         "name": "Hematite",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "60",
         "elements": [
@@ -140,6 +154,7 @@
     },
     {
         "name": "Simanite",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "60",
         "elements": [
@@ -150,6 +165,7 @@
     },
     {
         "name": "Shinolite",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "75",
         "elements": [
@@ -159,6 +175,7 @@
     },
     {
         "name": "Jet",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "140",
         "elements": [
@@ -170,6 +187,7 @@
     },
     {
         "name": "Jonquilyst",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "145",
         "elements": [
@@ -180,6 +198,7 @@
     },
     {
         "name": "Plumbite",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "160",
         "elements": [
@@ -190,6 +209,7 @@
     },
     {
         "name": "Rainborz",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "150",
         "elements": [
@@ -200,6 +220,7 @@
     },
     {
         "name": "Crandestine",
+        "type": "crystal",
         "rarity": "Common",
         "value": "95",
         "elements": [
@@ -210,6 +231,7 @@
     },
     {
         "name": "Nitelite",
+        "type": "crystal",
         "rarity": "Common",
         "value": "95",
         "elements": [
@@ -221,6 +243,7 @@
     },
     {
         "name": "Amazonite",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "85",
         "elements": [
@@ -232,6 +255,7 @@
     },
     {
         "name": "Alexandrite",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "155",
         "elements": [
@@ -243,6 +267,7 @@
     },
     {
         "name": "Jade",
+        "type": "crystal",
         "rarity": "Common",
         "value": "30",
         "elements": [
@@ -253,6 +278,7 @@
     },
     {
         "name": "Moonstone",
+        "type": "crystal",
         "rarity": "Uncommon",
         "value": "90",
         "elements": [
@@ -263,6 +289,7 @@
     },
     {
         "name": "Amber",
+        "type": "crystal",
         "rarity": "Rare",
         "value": "210",
         "elements": [

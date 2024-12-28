@@ -1,6 +1,7 @@
 [
     {
         "name": "Alcineat",
+        "type": "element",
         "rarity": "Common",
         "value": "10",
         "expansion": null,
@@ -19,6 +20,7 @@
     },
     {
         "name": "Goobleck",
+        "type": "element",
         "rarity": "Common",
         "value": "10",
         "expansion": null,
@@ -34,6 +36,7 @@
     },
     {
         "name": "Melacoo",
+        "type": "element",
         "rarity": "Common",
         "value": "15",
         "expansion": null,
@@ -50,6 +53,7 @@
     },
     {
         "name": "Oxypin",
+        "type": "element",
         "rarity": "Common",
         "value": "15",
         "expansion": null,
@@ -66,6 +70,7 @@
     },
     {
         "name": "Ozinate",
+        "type": "element",
         "rarity": "Common",
         "value": "20",
         "expansion": null,
@@ -81,6 +86,7 @@
     },
     {
         "name": "Phozone",
+        "type": "element",
         "rarity": "Common",
         "value": "10",
         "expansion": null,
@@ -97,6 +103,7 @@
     },
     {
         "name": "Selium",
+        "type": "element",
         "rarity": "Common",
         "value": "10",
         "expansion": null,
@@ -116,6 +123,7 @@
     },
     {
         "name": "Sydrolin",
+        "type": "element",
         "rarity": "Common",
         "value": "10",
         "expansion": null,
@@ -133,6 +141,7 @@
     },
     {
         "name": "Volenton",
+        "type": "element",
         "rarity": "Common",
         "value": "45",
         "expansion": null,
@@ -152,6 +161,7 @@
     },
     {
         "name": "Peryllium",
+        "type": "element",
         "rarity": "Uncommon",
         "value": "40",
         "expansion": null,
@@ -168,6 +178,7 @@
     },
     {
         "name": "Plathium",
+        "type": "element",
         "rarity": "Uncommon",
         "value": "35",
         "expansion": null,
@@ -186,6 +197,7 @@
     },
     {
         "name": "Wolfium",
+        "type": "element",
         "rarity": "Uncommon",
         "value": "55",
         "expansion": null,
@@ -202,6 +214,7 @@
     },
     {
         "name": "Crytacoo",
+        "type": "element",
         "rarity": "Rare",
         "value": "140",
         "expansion": null,
@@ -219,6 +232,7 @@
     },
     {
         "name": "Firaxium",
+        "type": "element",
         "rarity": "Rare",
         "value": "160",
         "expansion": null,
@@ -234,6 +248,7 @@
     },
     {
         "name": "Plumbobus",
+        "type": "element",
         "rarity": "Rare",
         "value": "175",
         "expansion": null,
@@ -248,6 +263,7 @@
     },
     {
         "name": "Xenopetrium",
+        "type": "element",
         "rarity": "Uncommon",
         "value": "80",
         "expansion": "Get to Work",
