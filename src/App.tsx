@@ -3,6 +3,7 @@ import './App.css'
 import { CrystalsPage } from './pages/CrystalsPage'
 import { CollectablesPage } from './pages/CollectablesPage'
 import { ElementsPage } from './pages/ElementsPage'
+import { PageWrapper } from './pages/PageWrapper'
 
 function App() {
 
@@ -10,10 +11,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<CollectablesPage />} />
-          {/* <Route path="collectables" element={<CollectablesPage />} /> */}
-          <Route path="crystals" element={<CrystalsPage />} />
-          <Route path="elements" element={<ElementsPage />} />
+          <Route path="/" element={<PageWrapper />} >
+            {/* <Route path="collectables" element={<CollectablesPage />} /> */}
+            <Route path="crystals" element={<CrystalsPage />} />
+            <Route path="elements" element={<ElementsPage />} />
+          </Route>
         </Routes>
       </BrowserRouter>
 

@@ -16,6 +16,8 @@ export function CollectablePanel(props: CollectableProps) {
             <img src={getImage(props.crystal?.type + "/" + props.crystal?.name + ".webp")}></img>
         </div>
         <div className=" ">{props.crystal?.elements?.map(e => <div key={e} className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div>
+        <div className=" ">{props.crystal?.metals?.map(e => <div key={e} className=" text-xs"><Link to="/metals">{e}</Link></div>)}</div>
+        <div className=" ">{props.crystal?.crystals?.map(e => <div key={e} className=" text-xs"><Link to="/crystals">{e}</Link></div>)}</div>
     </div>)
 
 }
