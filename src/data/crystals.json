@@ -6,7 +6,7 @@
         "value": "25",
         "elements": [
             "Selium",
-            " Alcineat"
+            "Alcineat"
         ],
         "expansion": null
     },
@@ -17,7 +17,7 @@
         "value": "25",
         "elements": [
             "Ozinate",
-            " Plathium"
+            "Plathium"
         ],
         "expansion": null
     },
@@ -28,7 +28,7 @@
         "value": "20",
         "elements": [
             "Goobleck",
-            " Sydrolin"
+            "Sydrolin"
         ],
         "expansion": null
     },
@@ -39,7 +39,7 @@
         "value": "15",
         "elements": [
             "Selium",
-            " Phozone"
+            "Phozone"
         ],
         "expansion": null
     },
@@ -50,7 +50,7 @@
         "value": "15",
         "elements": [
             "Sydrolin",
-            " Alcineat"
+            "Alcineat"
         ],
         "expansion": null
     },
@@ -61,7 +61,7 @@
         "value": "30",
         "elements": [
             "Volenton",
-            " Sydrolin"
+            "Sydrolin"
         ],
         "expansion": null
     },
@@ -72,7 +72,7 @@
         "value": "20",
         "elements": [
             "Phozone",
-            " Peryllium"
+            "Peryllium"
         ],
         "expansion": null
     },
@@ -83,7 +83,7 @@
         "value": "30",
         "elements": [
             "Sydrolin",
-            " Peryllium"
+            "Peryllium"
         ],
         "expansion": null
     },
@@ -104,7 +104,7 @@
         "value": "20",
         "elements": [
             "Alcineat",
-            " Oxypin"
+            "Oxypin"
         ],
         "expansion": null
     },
@@ -115,7 +115,7 @@
         "value": "55",
         "elements": [
             "Volenton",
-            " Oxypin"
+            "Oxypin"
         ],
         "expansion": null
     },
@@ -126,7 +126,7 @@
         "value": "90",
         "elements": [
             "Plathium",
-            " Firaxium"
+            "Firaxium"
         ],
         "expansion": null
     },
@@ -137,8 +137,8 @@
         "value": "70",
         "elements": [
             "Selium",
-            " Plathium",
-            " Crytacoo"
+            "Plathium",
+            "Crytacoo"
         ],
         "expansion": null
     },
@@ -159,7 +159,7 @@
         "value": "60",
         "elements": [
             "Ozinate",
-            " Volenton"
+            "Volenton"
         ],
         "expansion": null
     },
@@ -180,8 +180,8 @@
         "value": "140",
         "elements": [
             "Plumbobus",
-            " Plathium",
-            " Wolfium"
+            "Plathium",
+            "Wolfium"
         ],
         "expansion": null
     },
@@ -192,7 +192,7 @@
         "value": "145",
         "elements": [
             "Phozone",
-            " Crytacoo"
+            "Crytacoo"
         ],
         "expansion": null
     },
@@ -203,7 +203,7 @@
         "value": "160",
         "elements": [
             "Plumbobus",
-            " Phozone"
+            "Phozone"
         ],
         "expansion": null
     },
@@ -214,7 +214,7 @@
         "value": "150",
         "elements": [
             "Peryllium",
-            " Firaxium"
+            "Firaxium"
         ],
         "expansion": null
     },
@@ -225,7 +225,7 @@
         "value": "95",
         "elements": [
             "Xenopetrium",
-            " Crytacoo"
+            "Crytacoo"
         ],
         "expansion": "Get to Work"
     },
@@ -236,8 +236,8 @@
         "value": "95",
         "elements": [
             "Xenopetrium",
-            " Phozone",
-            " Volenton"
+            "Phozone",
+            "Volenton"
         ],
         "expansion": "Get to Work"
     },
@@ -248,8 +248,8 @@
         "value": "85",
         "elements": [
             "Crytacoo",
-            " Melacoo",
-            " Selium"
+            "Melacoo",
+            "Selium"
         ],
         "expansion": "Jungle Adventure"
     },
@@ -260,8 +260,8 @@
         "value": "155",
         "elements": [
             "Firaxium",
-            " Goobleck",
-            " Oxypin"
+            "Goobleck",
+            "Oxypin"
         ],
         "expansion": "Jungle Adventure"
     },
@@ -272,7 +272,7 @@
         "value": "30",
         "elements": [
             "Goobleck",
-            " Plathium"
+            "Plathium"
         ],
         "expansion": "Crystal Creations"
     },
@@ -283,7 +283,7 @@
         "value": "90",
         "elements": [
             "Wolfium",
-            " Selium"
+            "Selium"
         ],
         "expansion": "Crystal Creations"
     },
@@ -294,7 +294,7 @@
         "value": "210",
         "elements": [
             "Crytacoo",
-            " Melacoo"
+            "Melacoo"
         ],
         "expansion": "Crystal Creations"
     }

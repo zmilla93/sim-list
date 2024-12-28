@@ -1,4 +1,4 @@
-const images: Record<string, string> = import.meta.glob('/src/assets/**/*.{png,jpg,jpeg,webp}', { eager: true, as: 'url' });
+const images: Record<string, string> = import.meta.glob('/src/assets/**/*.{png,jpg,jpeg,webp}', { eager: true, query: 'url', import:'default' });
 
 export function getImage(path: string): string | undefined {
     const filePath = `/src/assets/${path}`;

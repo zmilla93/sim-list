@@ -1,0 +1,280 @@
+[
+    {
+        "name": "Alcron",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "10",
+        "elements": [
+            "Sydrolin",
+            "Selium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Baconite",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Sydrolin",
+            "Ozinate"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Heavy Metal",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "30",
+        "elements": [
+            "Phozone",
+            "Goobleck"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Obtanium",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Alicneat",
+            "Goobleck"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Ozinold",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Ozinate",
+            "Alcineat"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Phozonite",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "15",
+        "elements": [
+            "Phozone"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Plathinum",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "20",
+        "elements": [
+            "Goobleck",
+            "Plathium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Punium",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "30",
+        "elements": [
+            "Oxypin"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Pyrite",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "10",
+        "elements": [
+            "Phozone",
+            "Melacoo"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Utranium",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "25",
+        "elements": [
+            "Selium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Crytunium",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "75",
+        "elements": [
+            "Crytacoo",
+            "Volenton"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Death Metal",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "60",
+        "elements": [
+            "Plathium",
+            "Ozinate"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Flamingonium",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "75",
+        "elements": [
+            "Melacoo",
+            "Peryllium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Ironyum",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "80",
+        "elements": [
+            "Wolfium",
+            "Plathium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Simtanium",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "90",
+        "elements": [
+            "Selium",
+            "Wolfium",
+            "Plumbobus"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Socialite",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "80",
+        "elements": [
+            "Peryllium",
+            "Volenton"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Furium",
+        "type": "metal",
+        "rarity": "Rare",
+        "value": "140",
+        "elements": [
+            "Firaxium",
+            "Oxypin",
+            "Alcineat"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Literalite",
+        "type": "metal",
+        "rarity": "Rare",
+        "value": "125",
+        "elements": [
+            "Selium",
+            "Volenton",
+            "Crytacoo"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Romantium",
+        "type": "metal",
+        "rarity": "Rare",
+        "value": "150",
+        "elements": [
+            "Melacoo",
+            "Peryllium",
+            "Plumbobus"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Sadnum",
+        "type": "metal",
+        "rarity": "Rare",
+        "value": "155",
+        "elements": [
+            "Selium",
+            "Plubobus",
+            "Firaxium"
+        ],
+        "expansion": null
+    },
+    {
+        "name": "Blutonium",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "90",
+        "elements": [
+            "Xenopetrium",
+            "Plathium"
+        ],
+        "expansion": "Get to Work"
+    },
+    {
+        "name": "Solarium",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "90",
+        "elements": [
+            "Xenopetrium",
+            "Oxypin",
+            "Wolfium"
+        ],
+        "expansion": "Get to Work"
+    },
+    {
+        "name": "Silver",
+        "type": "metal",
+        "rarity": "Common",
+        "value": "20",
+        "elements": [
+            "Sydrolin",
+            "Oxypin"
+        ],
+        "expansion": "Crystal Creations"
+    },
+    {
+        "name": "Gold",
+        "type": "metal",
+        "rarity": "Uncommon",
+        "value": "85",
+        "elements": [
+            "Volenton",
+            "Alcineat"
+        ],
+        "expansion": "Crystal Creations"
+    },
+    {
+        "name": "Rose Gold",
+        "type": "metal",
+        "rarity": "Rare",
+        "value": "150",
+        "elements": [
+            "Volenton",
+            "Firaxium"
+        ],
+        "expansion": "Crystal Creations"
+    }
+]

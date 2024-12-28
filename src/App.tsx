@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 import { CrystalsPage } from './pages/CrystalsPage'
-import { CollectablesPage } from './pages/CollectablesPage'
 import { ElementsPage } from './pages/ElementsPage'
+import { MetalPage } from './pages/MetalPage'
 import { PageWrapper } from './pages/PageWrapper'
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
             {/* <Route path="collectables" element={<CollectablesPage />} /> */}
             <Route path="crystals" element={<CrystalsPage />} />
             <Route path="elements" element={<ElementsPage />} />
+            <Route path="metals" element={<MetalPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

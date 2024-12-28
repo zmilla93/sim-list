@@ -7,15 +7,15 @@
         "expansion": null,
         "crystals": [
             "Peach",
-            " Alabaster",
-            " Turquoise",
-            " Shinolite"
+            "Alabaster",
+            "Turquoise",
+            "Shinolite"
         ],
         "metals": [
             "Obtanium",
-            " Ozinold",
-            " Furium",
-            " Gold"
+            "Ozinold",
+            "Furium",
+            "Gold"
         ]
     },
     {
@@ -26,12 +26,12 @@
         "expansion": null,
         "crystals": [
             "Emerald",
-            " Alexandrite",
-            " Jade"
+            "Alexandrite",
+            "Jade"
         ],
         "metals": [
             "Obtanium",
-            " Plathinum"
+            "Plathinum"
         ]
     },
     {
@@ -42,13 +42,13 @@
         "expansion": null,
         "crystals": [
             "Sapphire",
-            " Amazonite",
-            " Amber"
+            "Amazonite",
+            "Amber"
         ],
         "metals": [
             "Pyrite",
-            " Flamingonium",
-            " Romantium"
+            "Flamingonium",
+            "Romantium"
         ]
     },
     {
@@ -59,13 +59,13 @@
         "expansion": null,
         "crystals": [
             "Turquoise",
-            " Amethyst",
-            " Alexandrite"
+            "Amethyst",
+            "Alexandrite"
         ],
         "metals": [
             "Punium",
-            " Furium",
-            " Silver"
+            "Furium",
+            "Silver"
         ]
     },
     {
@@ -76,12 +76,12 @@
         "expansion": null,
         "crystals": [
             "Citrine",
-            " Simanite"
+            "Simanite"
         ],
         "metals": [
             "Baconite",
-            " Ozinold",
-            " Death Metal"
+            "Ozinold",
+            "Death Metal"
         ]
     },
     {
@@ -92,10 +92,10 @@
         "expansion": null,
         "crystals": [
             "Orange Topaz",
-            " Rose",
-            " Jonquilyst",
-            " Plumbite",
-            " Nitelite"
+            "Rose",
+            "Jonquilyst",
+            "Plumbite",
+            "Nitelite"
         ],
         "metals": [
             "Pyrite"
@@ -109,16 +109,16 @@
         "expansion": null,
         "crystals": [
             "Alabaster",
-            " Orange Topaz",
-            " Fire Opal",
-            " Amazonite",
-            " Moonstone"
+            "Orange Topaz",
+            "Fire Opal",
+            "Amazonite",
+            "Moonstone"
         ],
         "metals": [
             "Alcron",
-            " Utranium",
-            " Simtanium",
-            " Literalite"
+            "Utranium",
+            "Simtanium",
+            "Literalite"
         ]
     },
     {
@@ -129,14 +129,14 @@
         "expansion": null,
         "crystals": [
             "Emerald",
-            " Peach",
-            " Quartz",
-            " Ruby"
+            "Peach",
+            "Quartz",
+            "Ruby"
         ],
         "metals": [
             "Alcron",
-            " Baconite",
-            " Silver"
+            "Baconite",
+            "Silver"
         ]
     },
     {
@@ -147,16 +147,16 @@
         "expansion": null,
         "crystals": [
             "Quartz",
-            " Amethyst",
-            " Simanite",
-            " Nitelite"
+            "Amethyst",
+            "Simanite",
+            "Nitelite"
         ],
         "metals": [
             "Socialite",
-            " Literalite",
-            " Crytunium",
-            " Gold",
-            " Rose Gold"
+            "Literalite",
+            "Crytunium",
+            "Gold",
+            "Rose Gold"
         ]
     },
     {
@@ -167,13 +167,13 @@
         "expansion": null,
         "crystals": [
             "Rose",
-            " Ruby",
-            " Rainborz"
+            "Ruby",
+            "Rainborz"
         ],
         "metals": [
             "Flamingonium",
-            " Socialite",
-            " Romantium"
+            "Socialite",
+            "Romantium"
         ]
     },
     {
@@ -184,15 +184,15 @@
         "expansion": null,
         "crystals": [
             "Citrine",
-            " Diamond",
-            " Fire Opal",
-            " Jet",
-            " Jade"
+            "Diamond",
+            "Fire Opal",
+            "Jet",
+            "Jade"
         ],
         "metals": [
             "Plathinum",
-            " Death Metal",
-            " Ironyum"
+            "Death Metal",
+            "Ironyum"
         ]
     },
     {
@@ -203,13 +203,13 @@
         "expansion": null,
         "crystals": [
             "Hematite",
-            " Shinolite",
-            " Jet",
-            " Moonstone"
+            "Shinolite",
+            "Jet",
+            "Moonstone"
         ],
         "metals": [
             "Ironyum",
-            " Simtanium"
+            "Simtanium"
         ]
     },
     {
@@ -220,14 +220,14 @@
         "expansion": null,
         "crystals": [
             "Fire Opal",
-            " Jonquilyst",
-            " Crandestine",
-            " Amazonite",
-            " Amber"
+            "Jonquilyst",
+            "Crandestine",
+            "Amazonite",
+            "Amber"
         ],
         "metals": [
             "Literalite",
-            " Crytunium"
+            "Crytunium"
         ]
     },
     {
@@ -238,12 +238,12 @@
         "expansion": null,
         "crystals": [
             "Diamond",
-            " Rainborz",
-            " Alexandrite"
+            "Rainborz",
+            "Alexandrite"
         ],
         "metals": [
             "Furium",
-            " Rose Gold"
+            "Rose Gold"
         ]
     },
     {
@@ -254,11 +254,11 @@
         "expansion": null,
         "crystals": [
             "Jet",
-            " Plumbite"
+            "Plumbite"
         ],
         "metals": [
             "Simtanium",
-            " Romantium"
+            "Romantium"
         ]
     },
     {
@@ -269,10 +269,8 @@
         "expansion": "Get to Work",
         "crystals": [
             "Crandestine",
-            " Nitelite"
+            "Nitelite"
         ],
-        "metals": [
-            ""
-        ]
+        "metals": null
     }
 ]
