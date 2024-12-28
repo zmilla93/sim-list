@@ -10,7 +10,7 @@ export function CrystalsPage() {
         <div>
             <div className=" text-7xl m-2">Sims 4 Cheat Sheets</div>
             <CollectableContainer>
-                {crystals.map(c => <CollectablePanel crystal={c} />)}
+                {crystals.map(c => <CollectablePanel key={c.name} crystal={c} />)}
             </CollectableContainer>
         </div>
     )

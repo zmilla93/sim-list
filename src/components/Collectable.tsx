@@ -15,7 +15,7 @@ export function CollectablePanel(props: CollectableProps) {
         <div className="flex justify-center">
             <img src={getImage(props.crystal?.type + "/" + props.crystal?.name + ".webp")}></img>
         </div>
-        <div className=" ">{props.crystal?.elements?.map(e => <div className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div>
+        <div className=" ">{props.crystal?.elements?.map(e => <div key={e} className=" text-xs"><Link to="/elements">{e}</Link></div>)}</div>
     </div>)
 
 }

@@ -11,7 +11,7 @@ export function ElementsPage() {
         <div>
             <div className=" text-7xl m-2">Sims 4 Cheat Sheets</div>
             <CollectableContainer>
-                {elements.map(c => <CollectablePanel crystal={c} />)}
+                {elements.map(c => <CollectablePanel key={c.name} crystal={c} />)}
             </CollectableContainer>
         </div>
     )
