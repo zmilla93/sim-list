@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
+#root {}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
+  transition: all 0.2s linear 0s;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: underline;
 }

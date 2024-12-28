@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
+import { CreditsPage } from './pages/CreditsPage'
 import { CrystalsPage } from './pages/CrystalsPage'
 import { ElementsPage } from './pages/ElementsPage'
 import { MetalPage } from './pages/MetalPage'
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PageWrapper />} >
             {/* <Route path="collectables" element={<CollectablesPage />} /> */}
+            <Route path="credits" element={<CreditsPage />} />
             <Route path="crystals" element={<CrystalsPage />} />
             <Route path="elements" element={<ElementsPage />} />
             <Route path="metals" element={<MetalPage />} />

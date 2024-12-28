@@ -6,5 +6,5 @@ export function ElementsPage() {
     const elements = getJsonArray<Collectable>("elements.json");
     return (
         <CollectableContainer collectables={elements} />
-    )
+    );
 }

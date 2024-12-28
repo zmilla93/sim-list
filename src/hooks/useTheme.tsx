@@ -7,14 +7,17 @@ let codeWriterEnabled = false;
 // FIXME : any
 let codeWriterCSSLight: any;
 let codeWriterCSSDark: any;
-const DARK = "dark";
-const LIGHT = "light";
-const THEME = "theme";
+export const DARK = "dark";
+export const LIGHT = "light";
+export const THEME = "theme";
+
+// Preloading the theme needs to be done immediately to avoid flickering.
+// It is not dependent on react, so it can be done outside of the hook.
+preloadPreferredTheme();
 
 export function useTheme() {
     const [isDark, setIsDark] = useState(document.documentElement.dataset.theme == DARK);
     useEffect(() => {
-        preloadPreferredTheme();
         init();
     }, []);
     function toggleTheme() {
@@ -27,18 +30,7 @@ export function useTheme() {
     return toggleTheme;
 }
 
-// export function useThemeSwitchButton() {
-//     function handleClick() {
 
-//     }
-//     return (
-//         <span onClick={handleClick}>
-//             THEME
-//         </span>
-//     );
-// }
-
-// FIXME : If this causes flickering, try moving to bottom of file instead of on mount
 function preloadPreferredTheme() {
     let currentTheme = localStorage.getItem(THEME);
     if (currentTheme == null) {
