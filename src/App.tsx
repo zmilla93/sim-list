@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
-import './App.css'
-import { CreditsPage } from './pages/CreditsPage'
-import { CrystalsPage } from './pages/CrystalsPage'
-import { ElementsPage } from './pages/ElementsPage'
-import { MetalPage } from './pages/MetalPage'
-import { PageWrapper } from './pages/PageWrapper'
+import { BrowserRouter, Route, Routes } from 'react-router';
+import './App.css';
+import { CreditsPage } from './pages/CreditsPage';
+import { CrystalsPage } from './pages/CrystalsPage';
+import { ElementsPage } from './pages/ElementsPage';
+import { MetalPage } from './pages/MetalPage';
+import { PageWrapper } from './pages/PageWrapper';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
       </div> */}
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;

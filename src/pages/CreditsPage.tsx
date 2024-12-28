@@ -34,7 +34,7 @@ export function CreditsPage() {
                 Some images were obtained from the <a href="https://sims.fandom.com/wiki/The_Sims_4" target="_blank">Sims 4 Wiki</a>, which are credited below.<br />
             </div>
             <div className="flex justify-center">
-                {credits.map((credit) => <Entry credit={credit} />)}
+                {credits.map((credit) => <Entry key={credit.originalFileName} credit={credit} />)}
             </div>
         </div>
     );
@@ -42,7 +42,7 @@ export function CreditsPage() {
 
 function Entry({ credit }: { credit: CreditsEntry }) {
     return (
-        <div className=" flex p-2 border border-[--main-color] rounded ">
+        <div className=" flex m-1 p-2 border border-[--main-color] rounded ">
             <div className="m-1 flex flex-col justify-center">
                 <div>File: <a href={credit.source} target="_blank">{credit.originalFileName}</a></div>
                 <div>Uploader: <a href={"https://sims.fandom.com/wiki/User:" + credit.uploader} target="_blank">{credit.uploader}</a></div>

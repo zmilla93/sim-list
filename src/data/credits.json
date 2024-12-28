@@ -1,9 +1,20 @@
 [
     {
         "uploader": "ODAPHII",
-        "originalFileName": "TS4GT Icon.webp",
+        "originalFileName": "TS4GT Icon",
         "source": "https://sims.fandom.com/wiki/The_Sims_4:_Get_to_Work?file=TS4GTW_Icon.png",
-        "url": "https://static.wikia.nocookie.net/sims/images/e/ea/TS4GT_Icon.png/revision/latest?cb=20230720203027",
-        "img": "icons/GetToWork.webp"
+        "img": "icons/Get to Work.webp"
+    },
+    {
+        "uploader": "ODAPHII",
+        "originalFileName": "TS4SP20Icon",
+        "source": "https://sims.fandom.com/wiki/The_Sims_4:_Crystal_Creations_Stuff?file=TS4SP20Icon.png",
+        "img": "icons/Crystal Creations.webp"
+    },
+    {
+        "uploader": "ODAPHII",
+        "originalFileName": "TS4AT Icon",
+        "source": "https://sims.fandom.com/wiki/The_Sims_4:_Jungle_Adventure?file=TS4AT_Icon.png",
+        "img": "icons/Jungle Adventure.webp"
     }
 ]
