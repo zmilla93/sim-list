@@ -11,7 +11,7 @@ export function PageWrapper() {
     useTheme();
     return (
         <div id="page" className="  flex flex-col items-center">
-            <div className=" text-7xl m-2">Sims 4 Lexicon</div>
+            <div className=" text-7xl m-2">Sims 4 Depot</div>
             <input name="Theme" type="button" id="themeSwitchButton" className=" text-7xl m-2" value={"WOWS"} />
             <div className=" flex justify-center">
                 <Link to="/">Home</Link>
