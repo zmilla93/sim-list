@@ -47,7 +47,7 @@ function Entry({ credit }: { credit: CreditsEntry }) {
                 <div>File: <a href={credit.source} target="_blank">{credit.originalFileName}</a></div>
                 <div>Uploader: <a href={"https://sims.fandom.com/wiki/User:" + credit.uploader} target="_blank">{credit.uploader}</a></div>
             </div>
-            <div><img src={getImage(credit.img)}></img></div>
+            <div><img className=" max-h-[64px]" src={getImage(credit.img)}></img></div>
         </div>
     );
 }

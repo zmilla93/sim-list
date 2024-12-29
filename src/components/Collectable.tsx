@@ -40,7 +40,6 @@ function LinkSection({ to, list, highlightItem, linkHoverCallback }: { to: strin
     return (
         <div className=" mx-[2px] p-[2px] border border-gray-600">
             <div>{to}</div>
-            {/* {list?.map(e => <div key={e} className=" text-xs"><Link to={"/" + to.toLocaleLowerCase()}>{e}</Link></div>)} */}
             {list?.map(e => <SingleLink key={e} text={e} to={to} highlightItem={highlightItem} linkHoverCallback={linkHoverCallback} />)}
         </div>
     );
@@ -53,5 +52,5 @@ function SingleLink({ text, to, highlightItem, linkHoverCallback }: { text: stri
 
 function PackIcon({ pack }: { pack: string | undefined }) {
     if (pack == undefined) return null;
-    return <img className=" absolute right-[2px] bottom-[2px] max-h-6" src={getImage("icons/" + pack + ".webp")}></img>;
+    return <img title={pack} className=" absolute right-[2px] bottom-[2px] max-h-6" src={getImage("icons/" + pack + ".webp")}></img>;
 }
