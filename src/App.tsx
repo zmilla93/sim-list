@@ -13,6 +13,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route path="/" element={<PageWrapper />} >
+            <Route index element={<div>Home</div>} />
             <Route path="credits" element={<CreditsPage />} />
             <Route path="crystals" element={<CrystalsPage />} />
             <Route path="elements" element={<ElementsPage />} />
