@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { HashRouter, Route, Routes } from 'react-router';
 import './App.css';
 import { CreditsPage } from './pages/CreditsPage';
 import { CrystalsPage } from './pages/CrystalsPage';
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<PageWrapper />} >
             {/* <Route path="collectables" element={<CollectablesPage />} /> */}
@@ -20,7 +20,7 @@ function App() {
             <Route path="metals" element={<MetalPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
       {/* <div>
         <div className=" text-7xl m-2">Sims 4 Cheat Sheets</div>
