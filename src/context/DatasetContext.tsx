@@ -10,10 +10,11 @@ export type Dataset = {
     crystals: Collectable[];
     metals: Collectable[];
     elements: Collectable[];
+    fossils: Collectable[];
 }
 
 // Datasets will never be null, just empty
-export const EMPTY_DATASET: Dataset = { crystals: [], metals: [], elements: [] };
+export const EMPTY_DATASET: Dataset = { crystals: [], metals: [], elements: [], fossils: [] };
 export const DatasetContext = createContext<Dataset>(EMPTY_DATASET);
 
 // Hook to access the datasets
@@ -34,10 +35,11 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
         const crystals = getJsonArray<Collectable>("crystals.json");
         const metals = getJsonArray<Collectable>("metal.json");
         const elements = getJsonArray<Collectable>("elements.json");
+        const fossils = getJsonArray<Collectable>("fossil.json");
         // setCrystals(getJsonArray<Collectable>("crystals.json"));
         // setMetals(getJsonArray<Collectable>("metals.json"));
         // setElements(getJsonArray<Collectable>("elements.json"));
-        setData({ crystals, metals, elements });
+        setData({ crystals, metals, elements, fossils });
     }, []);
 
     return (

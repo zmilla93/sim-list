@@ -26,6 +26,7 @@ function RouteComponent() {
         <Route path="crystals" element={<CollectableContainer collectables={data.crystals} />} />
         <Route path="elements" element={<CollectableContainer collectables={data.elements} />} />
         <Route path="metals" element={<CollectableContainer collectables={data.metals} />} />
+        <Route path="fossils" element={<CollectableContainer collectables={data.fossils} />} />
       </Route>
     </Routes>
   );

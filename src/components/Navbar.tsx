@@ -24,6 +24,7 @@ export function NavBar() {
                 <NavButton to="crystals" text="Crystals" setTargetRect={setTargetRect} />
                 <NavButton to="elements" text="Elements" setTargetRect={setTargetRect} />
                 <NavButton to="metals" text="Metals" setTargetRect={setTargetRect} />
+                <NavButton to="fossils" text="Fossils" setTargetRect={setTargetRect} />
                 {/* <Svg src={themeIcon} className={"mx-2"} size="1.2em" onClick={toggleTheme} /> */}
                 <CurrentPageUnderline targetRect={targetRect} height={underlineSize} />
             </ButtonGroup>

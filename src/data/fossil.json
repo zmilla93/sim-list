@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Prehistoric Rock",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "15"
+    },
+    {
+        "name": "Pre-Historic Hoofprint",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "40"
+    },
+    {
+        "name": "Enormous Trilobite",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "40"
+    },
+    {
+        "name": "Hilariously Tiny T-Rex Arms",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "45"
+    },
+    {
+        "name": "Fossilized Sim Hand",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "45"
+    },
+    {
+        "name": "Fossilized Sea Monster",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "50"
+    },
+    {
+        "name": "Fossilized Egg",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "70"
+    },
+    {
+        "name": "Fossilized Raptor Claw",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "70"
+    },
+    {
+        "name": "Fossilized Plant Imprint",
+        "type": "fossil",
+        "rarity": "Common",
+        "value": "70"
+    },
+    {
+        "name": "Prehistoric Bird",
+        "type": "fossil",
+        "rarity": "Uncommon",
+        "value": "75"
+    },
+    {
+        "name": "Fossilized Udder",
+        "type": "fossil",
+        "rarity": "Uncommon",
+        "value": "85"
+    },
+    {
+        "name": "Perfectly Preserved Mustache",
+        "type": "fossil",
+        "rarity": "Uncommon",
+        "value": "100"
+    },
+    {
+        "name": "Fossilized Whatzit",
+        "type": "fossil",
+        "rarity": "Rare",
+        "value": "175"
+    },
+    {
+        "name": "Pre-Pre-Pre Sim Head",
+        "type": "fossil",
+        "rarity": "Rare",
+        "value": "225"
+    },
+    {
+        "name": "Fossilized Alien Skull",
+        "type": "fossil",
+        "rarity": "Rare",
+        "value": "250"
+    }
+]
