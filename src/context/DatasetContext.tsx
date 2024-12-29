@@ -2,28 +2,30 @@ import { createContext, ReactNode, useContext, useEffect, useState } from "react
 import { Collectable } from "../data/collectables";
 import { getJsonArray } from "../utility";
 
-// This file provides a context for all datasets.
+// FIXME : Hook and provider being in the same file could cause issues with HRM,
+// but currently causes no issues and is much more maintainable for now.
 
-export type Datasets = {
+// Datasets are provided as a single object
+export type Dataset = {
     crystals: Collectable[];
     metals: Collectable[];
     elements: Collectable[];
 }
 
 // Datasets will never be null, just empty
-export const EMPTY_DATASET: Datasets = { crystals: [], metals: [], elements: [] };
+export const EMPTY_DATASET: Dataset = { crystals: [], metals: [], elements: [] };
+export const DatasetContext = createContext<Dataset>(EMPTY_DATASET);
 
-export const DataContext = createContext<Datasets>(EMPTY_DATASET);
-
+// Hook to access the datasets
 export function useDatasets() {
-    const context = useContext(DataContext);
+    const context = useContext(DatasetContext);
     if (!context) throw new Error("useDatasets must be used within a DataProvider");
     return context;
 }
 
 // Context Provider
-export function DataProvider({ children }: { children: ReactNode }) {
-    const [data, setData] = useState<Datasets>(EMPTY_DATASET);
+export function DatasetProvider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<Dataset>(EMPTY_DATASET);
     // const [crystals, setCrystals] = useState<Collectable[] | null>(null);
     // const [metals, setMetals] = useState<Collectable[] | null>(null);
     // const [elements, setElements] = useState<Collectable[] | null>(null);
@@ -39,9 +41,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
     }, []);
 
     return (
-        <DataContext.Provider value={data}>
+        <DatasetContext.Provider value={data}>
             {children}
-        </DataContext.Provider>
+        </DatasetContext.Provider>
     );
 }
 

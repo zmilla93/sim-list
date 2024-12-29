@@ -1,24 +1,21 @@
 import { HashRouter, Route, Routes } from 'react-router';
 import './App.css';
 import { CollectableContainer } from './components/CollectableContainer';
-import { DataProvider, useDatasets } from './context/DataContext';
+import { DatasetProvider, useDatasets } from './context/DatasetContext';
 import { CreditsPage } from './pages/CreditsPage';
-import { CrystalsPage } from './pages/CrystalsPage';
-import { ElementsPage } from './pages/ElementsPage';
-import { MetalPage } from './pages/MetalPage';
 import { PageWrapper } from './pages/PageWrapper';
 
 function App() {
   return (
-    <DataProvider>
+    <DatasetProvider>
       <HashRouter>
         <RouteComponent />
       </HashRouter>
-    </DataProvider>
+    </DatasetProvider>
   );
 }
 
-
+// Separate component mainly for using datasets inside provider
 function RouteComponent() {
   const data = useDatasets();
   return (
