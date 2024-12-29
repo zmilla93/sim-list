@@ -9,7 +9,7 @@ export type PageWrapperProps = {
 }
 
 export function PageWrapper() {
-    useTheme();
+    const toggleTheme = useTheme();
     return (
         <div id="page" className="">
             {/* Top Bar */}
@@ -25,7 +25,7 @@ export function PageWrapper() {
                     <Link to="/metals">Metals</Link>
                     <Link to="/credits">Credits</Link>
                 </div>
-                <div id="themeSwitchButton" className=" cursor-pointer" >Toggle Dark Mode</div>
+                <div id="themeSwitchButton" className=" cursor-pointer" onClick={toggleTheme} >Toggle Dark Mode</div>
             </div>
             {/* Page Content */}
             <div id="pageContent">

@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // Handles swapping between light and dark themes
 let darkTheme = false;
@@ -13,17 +13,13 @@ export const THEME = "theme";
 
 // Preloading the theme needs to be done immediately to avoid flickering.
 // It is not dependent on react, so it can be done outside of the hook.
-preloadPreferredTheme();
+
 
 export function useTheme() {
     const [isDark, setIsDark] = useState(document.documentElement.dataset.theme == DARK);
-    useEffect(() => {
-        init();
-    }, []);
     function toggleTheme() {
         const newTheme = isDark ? LIGHT : DARK;
         setIsDark(newTheme == DARK);
-        console.log(newTheme);
         localStorage.setItem(THEME, newTheme);
         document.documentElement.dataset.theme = newTheme;
     }
@@ -43,19 +39,19 @@ function preloadPreferredTheme() {
     console.log("preloaded theme: " + currentTheme);
 }
 
-function init() {
-    // FIXME
-    const themeButton = document.getElementById("themeSwitchButton");
-    themeButton!.onclick = toggleTheme;
-    codeWriterCSSLight = document.getElementById("codeWriterCSSLight");
-    codeWriterCSSDark = document.getElementById("codeWriterCSSDark");
-    codeWriterEnabled = codeWriterCSSLight != undefined;
-    if (codeWriterEnabled) {
-        if (darkTheme) codeWriterCSSLight.disabled = true;
-        else codeWriterCSSDark.disabled = true;
-    }
-    console.log("theme-switcher initialized.");
-}
+// function init() {
+//     // FIXME
+//     const themeButton = document.getElementById("themeSwitchButton");
+//     themeButton!.onclick = toggleTheme;
+//     codeWriterCSSLight = document.getElementById("codeWriterCSSLight");
+//     codeWriterCSSDark = document.getElementById("codeWriterCSSDark");
+//     codeWriterEnabled = codeWriterCSSLight != undefined;
+//     if (codeWriterEnabled) {
+//         if (darkTheme) codeWriterCSSLight.disabled = true;
+//         else codeWriterCSSDark.disabled = true;
+//     }
+//     console.log("theme-switcher initialized.");
+// }
 
 function toggleTheme() {
     darkTheme = !darkTheme;
@@ -68,3 +64,7 @@ function toggleTheme() {
 function clearLocalTheme() {
     localStorage.removeItem(THEME);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    preloadPreferredTheme();
+});

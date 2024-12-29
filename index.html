@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>S4CS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S4CS</title>
+  <script>
+    // function preloadPreferredTheme() {
+    const DARK = "dark";
+    const LIGHT = "light";
+    const THEME = "theme";
+    let currentTheme = localStorage.getItem(THEME);
+    if (currentTheme == null) {
+      const osThemeDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      currentTheme = osThemeDark ? DARK : LIGHT;
+      localStorage.setItem(THEME, currentTheme);
+    }
+    darkTheme = currentTheme == DARK;
+    document.documentElement.dataset.theme = currentTheme;
+    console.log("PRELOAD: " + currentTheme);
+    // }
+    // preloadPreferredTheme();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
