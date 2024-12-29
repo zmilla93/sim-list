@@ -1,13 +1,19 @@
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
 import { Collectable } from "../data/collectables";
 import { getJsonArray } from "../utility";
+
+// This file provides a context for all datasets.
+
 export type Datasets = {
-    crystals: Collectable[] | null;
-    metals: Collectable[] | null;
-    elements: Collectable[] | null;
+    crystals: Collectable[];
+    metals: Collectable[];
+    elements: Collectable[];
 }
 
-export const DataContext = createContext<Datasets | null>(null);
+// Datasets will never be null, just empty
+export const EMPTY_DATASET: Datasets = { crystals: [], metals: [], elements: [] };
+
+export const DataContext = createContext<Datasets>(EMPTY_DATASET);
 
 export function useDatasets() {
     const context = useContext(DataContext);
@@ -15,15 +21,16 @@ export function useDatasets() {
     return context;
 }
 
+// Context Provider
 export function DataProvider({ children }: { children: ReactNode }) {
-    const [data, setData] = useState<Datasets | null>(null);
+    const [data, setData] = useState<Datasets>(EMPTY_DATASET);
     // const [crystals, setCrystals] = useState<Collectable[] | null>(null);
     // const [metals, setMetals] = useState<Collectable[] | null>(null);
     // const [elements, setElements] = useState<Collectable[] | null>(null);
-
     useEffect(() => {
+        console.log("Loading data");
         const crystals = getJsonArray<Collectable>("crystals.json");
-        const metals = getJsonArray<Collectable>("metals.json");
+        const metals = getJsonArray<Collectable>("metal.json");
         const elements = getJsonArray<Collectable>("elements.json");
         // setCrystals(getJsonArray<Collectable>("crystals.json"));
         // setMetals(getJsonArray<Collectable>("metals.json"));
@@ -36,12 +43,5 @@ export function DataProvider({ children }: { children: ReactNode }) {
             {children}
         </DataContext.Provider>
     );
-
-
-    // return (
-    //     <DataContext.Provider value= {} >
-    //     { children }
-    //     </DataContext.Provider>
-    // )
 }
 
