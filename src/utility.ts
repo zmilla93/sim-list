@@ -19,6 +19,7 @@ interface JsonFile<T> { default: Array<T>; }
 
 export function getJsonArray<T>(path: string): T[] {
     // FIXME : Cache result
+    console.log("Getting json array...");
     const filePath = `/src/data/${path}`;
     const jsonFiles: Record<string, JsonFile<T[]>> = import.meta.glob('/src/data/**/*.json', { eager: true });
     const module = jsonFiles[filePath];
