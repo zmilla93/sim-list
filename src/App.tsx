@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+      <div>APP</div>
       <HashRouter>
         <Routes>
           <Route path="/" element={<PageWrapper />} >
