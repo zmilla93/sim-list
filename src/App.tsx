@@ -11,30 +11,21 @@ function App() {
   return (
     <>
       <div>APP</div>
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<PageWrapper />} >
-            {/* <Route path="collectables" element={<CollectablesPage />} /> */}
-            <Route path="credits" element={<CreditsPage />} />
-            <Route path="crystals" element={<CrystalsPage />} />
-            <Route path="elements" element={<ElementsPage />} />
-            <Route path="metals" element={<MetalPage />} />
-          </Route>
-        </Routes>
-      </HashRouter>
 
-      {/* <div>
-        <div className=" text-7xl m-2">Sims 4 Cheat Sheets</div>
-        <CollectableContainer>
-          <Collectable name="Citrine"></Collectable>
-          <Collectable name="Diamond"></Collectable>
-          <Collectable name="Sapphire"></Collectable>
-        </CollectableContainer>
-
-      </div> */}
 
     </>
   );
 }
+
+{/* <HashRouter>
+<Routes>
+  <Route path="/" element={<PageWrapper />} >
+    <Route path="credits" element={<CreditsPage />} />
+    <Route path="crystals" element={<CrystalsPage />} />
+    <Route path="elements" element={<ElementsPage />} />
+    <Route path="metals" element={<MetalPage />} />
+  </Route>
+</Routes>
+</HashRouter> */}
 
 export default App;
