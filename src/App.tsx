@@ -10,22 +10,20 @@ function App() {
 
   return (
     <>
-      <div>APP</div>
-
-
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<PageWrapper />} >
+            <Route path="credits" element={<CreditsPage />} />
+            <Route path="crystals" element={<CrystalsPage />} />
+            <Route path="elements" element={<ElementsPage />} />
+            <Route path="metals" element={<MetalPage />} />
+          </Route>
+        </Routes>
+      </HashRouter>
     </>
   );
 }
 
-{/* <HashRouter>
-<Routes>
-  <Route path="/" element={<PageWrapper />} >
-    <Route path="credits" element={<CreditsPage />} />
-    <Route path="crystals" element={<CrystalsPage />} />
-    <Route path="elements" element={<ElementsPage />} />
-    <Route path="metals" element={<MetalPage />} />
-  </Route>
-</Routes>
-</HashRouter> */}
+
 
 export default App;
