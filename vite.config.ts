@@ -5,4 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [react()],
   base: 'https://zmilla93.github.io/sim-list/',
+  server: {
+    port: 8000,
+  },
 });

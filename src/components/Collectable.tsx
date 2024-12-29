@@ -10,6 +10,9 @@ export type CollectableProps = {
 }
 
 export function CollectablePanel(props: CollectableProps) {
+    // Note: Currently all images are 116x116. Future proofing for icons of different sizes.
+    const minWidth = 116;
+    const minHeight = 116;
     return (
         <div className=" relative m-1 px-2 py-1 text-red-500 border rounded border-green-500 min-w-max">
             {/* Title */}
@@ -17,7 +20,7 @@ export function CollectablePanel(props: CollectableProps) {
             {/* Rarity */}
             <div className=" text-xs">{props.collectable?.rarity}</div>
             {/* Image */}
-            <div className="flex justify-center">
+            <div className={"flex justify-center min-w-[" + minWidth + "] min-h-[" + minHeight + "px]"}>
                 <img src={getImage(props.collectable?.type + "/" + props.collectable?.name + ".webp")}></img>
             </div>
             {/* Links to related items */}
@@ -31,7 +34,7 @@ export function CollectablePanel(props: CollectableProps) {
             <div>
 
             </div>
-        </div>
+        </div >
     );
 }
 

@@ -1,5 +1,13 @@
 const images: Record<string, string> = import.meta.glob('/src/assets/**/*.{png,jpg,jpeg,webp}', { eager: true, query: 'url', import: 'default' });
 
+function preloadImages() {
+    Object.values(images).forEach((src) => {
+        const img = new Image();
+        console.log(src);
+        img.src = src;
+    });
+}
+
 export function getImage(path: string): string | undefined {
     const filePath = `/src/assets/${path}`;
     const img = images[filePath];
@@ -16,3 +24,5 @@ export function getJsonArray<T>(path: string): T[] {
     const module = jsonFiles[filePath];
     return module?.default as T[];
 }
+
+// preloadImages();
