@@ -2,15 +2,18 @@ import { HashRouter, Route, Routes } from 'react-router';
 import './App.css';
 import { CollectableContainer } from './components/CollectableContainer';
 import { DatasetProvider, useDatasets } from './context/DatasetContext';
+import { PreviewProvider } from './context/PreviewContext';
 import { CreditsPage } from './pages/CreditsPage';
 import { PageWrapper } from './pages/PageWrapper';
 
 function App() {
   return (
     <DatasetProvider>
-      <HashRouter>
-        <RouteComponent />
-      </HashRouter>
+      <PreviewProvider>
+        <HashRouter>
+          <RouteComponent />
+        </HashRouter>
+      </PreviewProvider>
     </DatasetProvider>
   );
 }

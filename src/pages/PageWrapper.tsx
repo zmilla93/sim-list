@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Link, Outlet } from "react-router";
 import { NavBar } from "../components/Navbar";
+import { PreviewBox } from "../components/PreviewBox";
 import '../css/theme.css';
 import { useTheme } from "../hooks/useTheme";
 
@@ -31,6 +32,7 @@ export function PageWrapper() {
             <div id="pageContent">
                 <Outlet />
             </div>
+            <PreviewBox />
         </div>
     );
 
