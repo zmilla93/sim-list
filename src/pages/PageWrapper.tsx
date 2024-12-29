@@ -10,17 +10,24 @@ export type PageWrapperProps = {
 export function PageWrapper() {
     useTheme();
     return (
-        <div id="page" className="  flex flex-col items-center">
-            <div className=" text-7xl m-2">Sims 4 Depot</div>
-            <input name="Theme" type="button" id="themeSwitchButton" className=" text-7xl m-2" value={"WOWS"} />
-            <div className=" flex justify-center">
-                <Link to="/">Home</Link>
-                <Link to="/crystals">Crystals</Link>
-                <Link to="/elements">Elements</Link>
-                <Link to="/metals">Metals</Link>
-                <Link to="/credits">Credits</Link>
+        <div id="page" className="  ">
+            {/* Top Bar */}
+            <div id="topbar" className=" flex ">
+                <div className=" text-7xl m-2">Sims 4 Depot</div>
+                <input name="Theme" type="button" id="themeSwitchButton" className=" text-lg m-2" value={"Toggle Dark Mode"} />
+                {/* Navbar */}
+                <div className=" flex justify-center">
+                    <Link to="/">Home</Link>
+                    <Link to="/crystals">Crystals</Link>
+                    <Link to="/elements">Elements</Link>
+                    <Link to="/metals">Metals</Link>
+                    <Link to="/credits">Credits</Link>
+                </div>
             </div>
-            <Outlet />
+            {/* Page Content */}
+            <div id="pageContent">
+                <Outlet />
+            </div>
         </div>
     );
 

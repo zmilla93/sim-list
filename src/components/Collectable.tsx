@@ -39,15 +39,15 @@ function LinkSection({ to, list, highlightItem, linkHoverCallback }: { to: strin
     if (!list || list.length == 0) return null;
     return (
         <div className=" mx-[2px] p-[2px] border border-gray-600">
-            <div>{to}</div>
+            <div className=" text-sm">{to}</div>
             {list?.map(e => <SingleLink key={e} text={e} to={to} highlightItem={highlightItem} linkHoverCallback={linkHoverCallback} />)}
         </div>
     );
 }
 
 function SingleLink({ text, to, highlightItem, linkHoverCallback }: { text: string, to: string, highlightItem: string, linkHoverCallback: LinkHoverCallback }) {
-    const bgColor = highlightItem == text ? "bg-green-500" : "";
-    return <div className={" text-xs " + bgColor} onMouseEnter={() => linkHoverCallback(true, text)} onMouseLeave={() => linkHoverCallback(false, text)}><Link to={"/" + to.toLocaleLowerCase()}>{text}</Link></div>;
+    const bgColor = highlightItem == text ? "bg-green-300" : "";
+    return <div className={" rounded transition-all duration-300 text-xs " + bgColor} onMouseEnter={() => linkHoverCallback(true, text)} onMouseLeave={() => linkHoverCallback(false, text)}><Link to={"/" + to.toLocaleLowerCase()}>{text}</Link></div>;
 }
 
 function PackIcon({ pack }: { pack: string | undefined }) {
